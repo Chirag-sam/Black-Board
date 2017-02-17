@@ -70,13 +70,7 @@ public class availablestaff extends AppCompatActivity implements View.OnClickLis
         s2.setAdapter(houradapt);
 
 
-        AutoCompleteTextView act = (AutoCompleteTextView) findViewById(R.id.uname);
-// Get the string array
-        String[] names = getResources().getStringArray(R.array.Staff_Name);
-// Create the adapter and set it to the AutoCompleteTextView
-        ArrayAdapter<String> adapter =
-                new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, names);
-        act.setAdapter(adapter);
+
 
 
 
