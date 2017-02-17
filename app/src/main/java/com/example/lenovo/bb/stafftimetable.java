@@ -17,6 +17,7 @@ import android.widget.Spinner;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class stafftimetable extends AppCompatActivity {
@@ -30,6 +31,7 @@ public class stafftimetable extends AppCompatActivity {
         final ArrayAdapter<String> adapter =
                 new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, names);
         act1.setAdapter(adapter);
+        final ArrayList<String> arrl= new ArrayList<String>(Arrays.asList(names));
 
         Button bt1 = (Button) findViewById(R.id.butt1);
         bt1.setOnClickListener(new View.OnClickListener() {
@@ -37,7 +39,7 @@ public class stafftimetable extends AppCompatActivity {
             public void onClick(View v) {
                 boolean cancel = false;
                 String name1 = act1.getText().toString();
-                if (TextUtils.isEmpty(name1) || names.equals(name1)) {
+                if (TextUtils.isEmpty(name1)||!arrl.contains(name1)) {
                     cancel = true;
                     Toast.makeText(stafftimetable.this, "Invalid field", Toast.LENGTH_SHORT);
                 }

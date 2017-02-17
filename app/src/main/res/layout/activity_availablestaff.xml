@@ -18,28 +18,49 @@
         android:layout_height="wrap_content"
         android:text="Search"
         android:id="@+id/butt2"
-        android:textSize="23sp"
         android:onClick="onClick"
-        android:layout_below="@+id/hour"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/hourtext"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp" />
-
-
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/day"
-        android:spinnerMode="dialog"
-        android:textAlignment="center"
+        android:theme="@style/button"
          />
 
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Days:"
+    android:textSize="25dp"
+    android:id="@+id/dayst"
+    />
+    <Spinner
+        android:layout_toRightOf="@+id/dayst"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/day"
+        android:spinnerMode="dialog"
+        android:layout_alignBottom="@+id/dayst"
+        android:textAlignment="center"
+         />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Hour:"
+        android:textSize="25dp"
+        android:id="@+id/hourtext"
+        android:layout_below="@+id/day"
+
+        />
     <Spinner
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
+        android:layout_toRightOf="@+id/hourtext"
+        android:layout_alignBottom="@+id/hourtext"
+
+
         android:id="@+id/hour"
         android:spinnerMode="dialog"
         android:textAlignment="center"
-        android:layout_below="@+id/day"
       />
 
 </RelativeLayout>
