@@ -1,0 +1,59 @@
+<resources>
+
+    <string name="app_name">Nav</string>
+    <string name="app_n">Black Board</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">About</string>
+    <string name="abt1">App Developed By </string>
+    <string name="abt2">Code Criterion</string>
+    <string name="abt3">code.criterion@gmail.com</string>
+    <string name="sign"> A.Praveen</string>
+
+    <string name="sign2">Aditya.A.Apte</string>
+    <string name="st1">PLANNER</string>
+    <string name="user">Staff Name</string>
+    <string name="pass">Day</string>
+    <string name="st2">Continue</string>
+    <string name="st3">Back</string>
+    <string name="getuser"></string>
+
+    <string name="st4">Welcome</string>
+    <string name="na">WRONG PASSWORD</string>
+    <string name="st55">Enter staff name</string>
+
+    <string-array name="Staff_Name">
+        <item>Mr.J. Jagadeesan</item>
+        <item>Mr.R. Augustin Issac</item>
+        <item>Mr.S. Jayakumar</item>
+        <item>Mrs.T. Rathika</item>
+        <item>Mr.R.J. Poovaraghan</item>
+        <item>Mr. Balika.J.Chelliah</item>
+        <item>Mr. Narendran</item>
+        <item>Mrs.V. Praveena</item>
+        <item>Mr.S. Pandiaraj</item>
+        <item>Mr.S. Arunkumar</item>
+        <item>Mr.T.H. Feiroz Khan</item>
+        <item>Mr.B. Dojohn Loyd</item>
+        <item>Ms.M.S. Bennet Praba</item>
+        <item>Mrs. Mohanavalli Kirthika</item>
+        <item>Mrs. Sarada</item>
+        <item>Mr.S.P. MANIRAJ</item>
+        <item>Ms.J. Ahalya Mary</item>
+        <item>Mrs. Kalpana</item>
+        <item>Ms. Mrudula Oruganti</item>
+        <item>Mrs. Sabitha</item>
+        <item>Mrs. Elavarsi</item>
+        <item>Mr. Sarooraj</item>
+        <item>Mr. Muneeswaran</item>
+        <item>Ms. Akshaya</item>
+        <item>Mr. Senthil</item>
+        <item>Ms. Anlet</item>
+        <item>Mrs.S. Rajathi</item>
+        <item>Ms. Caroline El Fiorenza</item>
+        <item>Ms. Deva Hema</item>
+        <item>Ms. Angeline.R</item>
+        <item>Ms.M.S Antony Vigil</item>
+
+    </string-array>
+</resources>
