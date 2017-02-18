@@ -18,7 +18,9 @@
         <activity android:name=".stafftimetable" />
         <activity android:name=".displaytable" />
         <activity android:name=".availablestaff" />
-        <activity android:name=".displaystaff"></activity>
+        <activity android:name=".displaystaff" />
+        <activity android:name=".findclass" />
+        <activity android:name=".classtimetable"></activity>
     </application>
 
 </manifest>
