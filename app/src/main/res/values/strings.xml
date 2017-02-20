@@ -23,37 +23,55 @@
     <string name="st55">Enter staff name</string>
 
     <string-array name="Staff_Name">
-        <item>Mr.J. Jagadeesan</item>
-        <item>Mr.R. Augustin Issac</item>
-        <item>Mr.S. Jayakumar</item>
-        <item>Mrs.T. Rathika</item>
-        <item>Mr.R.J. Poovaraghan</item>
+
+        <item>Mr.R. Augustian Isaac</item>
         <item>Mr. Balika.J.Chelliah</item>
-        <item>Mr. Narendran</item>
-        <item>Mrs.V. Praveena</item>
-        <item>Mr.S. Pandiaraj</item>
-        <item>Mr.S. Arunkumar</item>
-        <item>Mr.T.H. Feiroz Khan</item>
-        <item>Mr.B. Dojohn Loyd</item>
+        <item>Mr.S. Jaya Kumar</item>
+        <item>Mr.R.J. Poovaraghan</item>
         <item>Ms.M.S. Bennet Praba</item>
-        <item>Mrs. Mohanavalli Kirthika</item>
-        <item>Mrs. Sarada</item>
-        <item>Mr.S.P. MANIRAJ</item>
-        <item>Ms.J. Ahalya Mary</item>
-        <item>Mrs. Kalpana</item>
-        <item>Ms. Mrudula Oruganti</item>
-        <item>Mrs. Sabitha</item>
-        <item>Mrs. Elavarsi</item>
+        <item>Mr.S. Pandiaraj</item>
+        <item>Ms.V. Praveena</item>
+        <item>Mr.S. Arun Kumar</item>
+        <item>Mrs.M.S. Antony Vigil</item>
+        <item>Mr.T.H. Feiroz Khan</item>
+        <item>Mr. B. Dojohn Loyd</item>
+        <item>Mrs. J. Ahalya Mary</item>
+        <item>Mrs. Mrudula Oruganti</item>
+        <item>Mr. S.P. Maniraj</item>
+        <item>Ms. V. Sellam</item>
         <item>Mr. Sarooraj</item>
-        <item>Mr. Muneeswaran</item>
-        <item>Ms. Akshaya</item>
-        <item>Mr. Senthil</item>
-        <item>Ms. Anlet</item>
-        <item>Mrs.S. Rajathi</item>
         <item>Ms. Caroline El Fiorenza</item>
-        <item>Ms. Deva Hema</item>
-        <item>Ms. Angeline.R</item>
-        <item>Ms.M.S Antony Vigil</item>
+        <item>Mrs. R.Angeline</item>
+        <item>Mr. Narendran M</item>
+        <item>Mrs. Sabitha P</item>
+        <item>Mrs. Tadepalli  Sarada Kiranmayee</item>
+        <item>Mrs.G. Kalpana</item>
+        <item>Mr. Senthil M</item>
+        <item>Mr.D. Bhaskar</item>
+        <item>Mr.M. Prabu</item>
+        <item>Mrs.A. Shiny</item>
+        <item>Ms.K. Suba</item>
+        <item>Ms.P. Adlene Ebenezer</item>
+        <item>Mrs.A. Sharmila Agnal</item>
+        <item>Mrs.S. Vishu Dharsini</item>
+        <item>Mrs.V. Sathya</item>
+        <item>Ms.S.R. Rajeswari</item>
+        <item>Ms.S. Usha Krithika</item>
+        <item>Mrs.E. Saraswathi</item>
+        <item>Mr.M. Saravanan</item>
+        <item>Mr.D. Ganesan</item>
+        <item>Mr.K. Sathish</item>
+        <item>Mr. Divagar Balasubramanian</item>
+        <item>Ms.S. Nandhini</item>
+        <item>Ms.J. Shiva Nandhini</item>
+        <item>Mrs.S. Kalaiarasi</item>
+        <item>Mrs.M. Shanthalakshmi</item>
+        <item>Ms.P. Subashini</item>
+      
 
     </string-array>
+    
+
+
+
 </resources>
