@@ -4,7 +4,8 @@
     android:id="@+id/activity_timetable"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:gravity="center|top"
+                android:layout_marginTop="50dp"
     tools:context="com.example.lenovo.bb.stafftimetable">
 
 
@@ -28,7 +29,8 @@
         android:id="@+id/butt1"
         android:theme="@style/button"
         android:layout_below="@+id/uname"
-android:layout_centerHorizontal="true"         />
+        android:layout_centerHorizontal="true"
+        android:filterTouchesWhenObscured="true"/>
 
 
 </RelativeLayout>

@@ -84,7 +84,7 @@
             android:layout_marginTop="40dp"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
-            android:theme="@style/button"/>
+            android:theme="@style/button" android:filterTouchesWhenObscured="true"/>
 
 
 

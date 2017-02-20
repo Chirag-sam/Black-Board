@@ -29,7 +29,7 @@
         android:layout_below="@+id/button4"
         android:id="@+id/button"
         android:theme="@style/button"
-        />
+        android:filterTouchesWhenObscured="true"/>
 
     <Button
         android:text="Available staff"
@@ -39,7 +39,7 @@
 
         android:theme="@style/button"
 
-        android:id="@+id/button2" />
+        android:id="@+id/button2" android:filterTouchesWhenObscured="true"/>
 
     <Button
         android:text="class location"
@@ -51,7 +51,7 @@
 
         android:id="@+id/button3"
         android:layout_marginBottom="30dp"
-        />
+        android:filterTouchesWhenObscured="true"/>
 
     <Button
         android:text="class time table"
@@ -61,5 +61,5 @@
         android:theme="@style/button"
         android:layout_below="@+id/tv"
         android:layout_centerHorizontal="true"
-         />
+        android:filterTouchesWhenObscured="true"/>
 </RelativeLayout>

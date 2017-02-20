@@ -80,7 +80,7 @@ public class DatabaseAccess {
             t = "p2";*/
 
 
-        comman="SELECT name FROM "+x+" where 'p"+y+"'='1'";
+        comman="SELECT NAME FROM "+x+" where p"+y+"=1";
 
         List<String> list = new ArrayList<>();
         Cursor cursor = database.rawQuery(comman, null);
