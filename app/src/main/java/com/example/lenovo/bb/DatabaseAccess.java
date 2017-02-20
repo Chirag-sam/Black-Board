@@ -63,8 +63,24 @@ public class DatabaseAccess {
      * @return a List of quotes
      */
     public List<String> getdat(String x, String y) {
+       /* String t="p1";
+        if (y.equals("1"))
+            t = "p1";
+        else if (y.equals("2"))
+            t = "p2";
+        else if (y.equals("3"))
+            t = "p3";
+        else if (y.equals("4"))
+            t = "p4";
+        else if (y.equals("5"))
+            t = "p5";
+        else if (y.equals("6"))
+            t = "p6";
+        else if (y.equals("2"))
+            t = "p2";*/
 
-        comman="SELECT NAME FROM "+x+" where hour="+y;
+
+        comman="SELECT name FROM "+x+" where 'p"+y+"'='1'";
 
         List<String> list = new ArrayList<>();
         Cursor cursor = database.rawQuery(comman, null);
