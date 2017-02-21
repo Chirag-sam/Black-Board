@@ -3,12 +3,18 @@ package com.example.lenovo.bb;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.Toast;
+
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class classtimetable extends AppCompatActivity {
 
@@ -18,7 +24,7 @@ public class classtimetable extends AppCompatActivity {
     String[] sect2 = {"A","B","C","D","E","F","G","H","I","J","K"};
     String[] sect3 = {"A","B","C","D","E"};
     String[] sect4 = {"A"};
-
+    ArrayList<String> v;
     int year1[]={
             R.drawable.a1,
             R.drawable.b1,
@@ -64,9 +70,9 @@ public class classtimetable extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_classtimetable);
 
-        final AutoCompleteTextView at2 = (AutoCompleteTextView)findViewById(R.id.at2);
-        final AutoCompleteTextView at3 = (AutoCompleteTextView)findViewById(R.id.at3);
-        Button button = (Button)findViewById(R.id.button);
+        final Spinner at2 = (Spinner) findViewById(R.id.sp1);
+        final Spinner at3 = (Spinner) findViewById(R.id.sp2);
+        Button button = (Button)findViewById(R.id.butt2);
 
         ImageView down2 = (ImageView)findViewById(R.id.down2);
         ImageView down3 = (ImageView)findViewById(R.id.down3);
@@ -78,67 +84,63 @@ public class classtimetable extends AppCompatActivity {
         final ArrayAdapter<String> adapter5 = new ArrayAdapter<String>(this, android.R.layout.simple_dropdown_item_1line,sect4);
 
         at2.setAdapter(adapter1);
+        at2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                String str2=at2.getSelectedItem().toString();
+                if(str2.equals("1")){v=new ArrayList<String>(Arrays.asList(sect1));
+                    at3.setAdapter(adapter2);}
+                else if(str2.equals("2")){
+                    v=new ArrayList<String>(Arrays.asList(sect2));
+                    at3.setAdapter(adapter3);}
+                else if(str2.equals("3")){
+                    v=new ArrayList<String>(Arrays.asList(sect3));
+                    at3.setAdapter(adapter4);}
+                else if(str2.equals("4")){
+                    v=new ArrayList<String>(Arrays.asList(sect4));
+                    at3.setAdapter(adapter5);}
 
 
-        at2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                at2.showDropDown();
-                String str2 = at2.getText().toString();
-                if(str2.equals("1"))
-                    at2.setAdapter(adapter2);
-                else if(str2.equals("2"))
-                    at2.setAdapter(adapter3);
-                else if(str2.equals("3"))
-                    at2.setAdapter(adapter4);
-                else if(str2.equals("4"))
-                    at2.setAdapter(adapter5);
+
             }
-        });
-        at3.setOnClickListener(new View.OnClickListener() {
+
             @Override
-            public void onClick(View view) {
-                at3.showDropDown();
+            public void onNothingSelected(AdapterView<?> parent) {
+
             }
         });
 
-        down2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                at2.showDropDown();
-            }
-        });
-        down3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                at3.showDropDown();
-            }
-        });
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                boolean cancel=false;
+                String str2 = at2.getSelectedItem().toString();
+                ArrayList<String> x=new ArrayList<String>(Arrays.asList(year));
+                String str3 = at3.getSelectedItem().toString();
 
-                String str2 = at2.getText().toString();
-                String str3 = at3.getText().toString();
-                if (str2.equals("1"))
-                { Intent intent = new Intent(getBaseContext(), displayclasstable.class);
-                intent.putExtra("drawable", year1[Integer.parseInt(str3)]);
-                startActivity(intent);}
-                else if (str2.equals("2"))
-                { Intent intent = new Intent(getBaseContext(), displayclasstable.class);
-                    intent.putExtra("drawable", year2[Integer.parseInt(str3)]);
-                    startActivity(intent);}
-                else if (str2.equals("3"))
-                { Intent intent = new Intent(getBaseContext(), displayclasstable.class);
-                    intent.putExtra("drawable", year3[Integer.parseInt(str3)]);
-                    startActivity(intent);}
-                else if (str2.equals("4"))
-                { Intent intent = new Intent(getBaseContext(), displayclasstable.class);
-                    intent.putExtra("drawable", year4[Integer.parseInt(str3)]);
-                    startActivity(intent);}
+                    int pos = v.indexOf(str3);
+                    if (pos == -1)
+                        pos = 0;
+                    if (str2.equals("1")) {
+                        Intent intent = new Intent(getBaseContext(), displayclasstable.class);
+                        intent.putExtra("drawable", year1[pos]);
+                        startActivity(intent);
+                    } else if (str2.equals("2")) {
+                        Intent intent = new Intent(getBaseContext(), displayclasstable.class);
+                        intent.putExtra("drawable", year2[pos]);
+                        startActivity(intent);
+                    } else if (str2.equals("3")) {
+                        Intent intent = new Intent(getBaseContext(), displayclasstable.class);
+                        intent.putExtra("drawable", year3[pos]);
+                        startActivity(intent);
+                    } else if (str2.equals("4")) {
+                        Intent intent = new Intent(getBaseContext(), displayclasstable.class);
+                        intent.putExtra("drawable", year4[pos]);
+                        startActivity(intent);
+                    }
 
 
-
+                
 
 
             }

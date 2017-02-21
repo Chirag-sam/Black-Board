@@ -13,60 +13,61 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_marginTop="90dp"
+        android:gravity="center"
         tools:context="com.example.chirag.srm.MainActivity"
         android:background="@android:color/background_light">
 
-        <AutoCompleteTextView
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/at1"
-            android:layout_alignLeft="@+id/at1"
-            android:layout_alignStart="@+id/at1"
-            android:layout_marginTop="150dp"
-            android:id="@+id/at2"
-            android:hint="Year"
-            android:layout_centerHorizontal="true"
-            />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/down2"
-            android:padding="5dp"
-            android:layout_alignTop="@+id/at2"
-            android:layout_alignBottom="@+id/at2"
-            android:layout_alignRight="@+id/at2"
-            android:src="@mipmap/ic_arrow_drop_down_black_24dp"/>
-
-        <AutoCompleteTextView
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/at2"
-            android:layout_alignLeft="@+id/at2"
-            android:layout_alignStart="@+id/at2"
-            android:layout_marginTop="60dp"
-            android:id="@+id/at3"
-            android:hint="Section" />
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/down3"
-            android:padding="5dp"
-            android:layout_alignTop="@+id/at3"
-            android:layout_alignBottom="@+id/at3"
-            android:layout_alignRight="@+id/at3"
-            android:src="@mipmap/ic_arrow_drop_down_black_24dp"/>
-
         <Button
-            android:text="Search!"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/button"
-            android:layout_below="@+id/at3"
-            android:layout_marginTop="40dp"
+            android:text="Search"
+            android:id="@+id/butt2"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/hourtext"
             android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true"
-            android:theme="@style/button"/>
+            android:theme="@style/button"
+            />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Year"
+            android:textSize="25dp"
+            android:id="@+id/dayst"
+
+            />
+        <Spinner
+            android:layout_toRightOf="@+id/dayst"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/sp1"
+            android:spinnerMode="dialog"
+            android:layout_alignBottom="@+id/dayst"
+            android:layout_alignLeft="@+id/sp2"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:text="Section"
+            android:textSize="25dp"
+            android:id="@+id/hourtext"
+            android:layout_below="@+id/day"
+
+            />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_toRightOf="@+id/hourtext"
+            android:layout_alignBottom="@+id/hourtext"
+            android:layout_marginLeft="30dp"
+
+            android:id="@+id/sp2"
+            android:spinnerMode="dialog"
+            android:textAlignment="center"
+            />
 
 
     </RelativeLayout>
