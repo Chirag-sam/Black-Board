@@ -20,7 +20,8 @@
         <activity android:name=".availablestaff" />
         <activity android:name=".displaystaff" />
         <activity android:name=".findclass" />
-        <activity android:name=".classtimetable"></activity>
+        <activity android:name=".classtimetable" />
+        <activity android:name=".displayclasstable"></activity>
     </application>
 
 </manifest>

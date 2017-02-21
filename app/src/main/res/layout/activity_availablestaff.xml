@@ -17,15 +17,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Search"
-
         android:id="@+id/butt2"
         android:onClick="onClick"
         android:layout_marginTop="20dp"
         android:layout_below="@+id/hourtext"
         android:layout_centerHorizontal="true"
         android:theme="@style/button"
-        android:filterTouchesWhenObscured="true"/>
+         />
 
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Days:"
+    android:textSize="25dp"
+    android:id="@+id/dayst"
+    />
     <Spinner
         android:layout_toRightOf="@+id/dayst"
         android:layout_width="match_parent"
@@ -56,14 +62,5 @@
         android:spinnerMode="dialog"
         android:textAlignment="center"
       />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Days:"
-        android:textSize="25dp"
-        android:id="@+id/dayst"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

@@ -1,0 +1,344 @@
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.R. Augustian Isaac",1,0,1,1,1,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.R. Augustian Isaac",1,1,0,0,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.R. Augustian Isaac",0,0,1,1,1,0,1);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.R. Augustian Isaac",0,0,0,0,0,0,1);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.R. Augustian Isaac",1,0,1,1,1,0,1);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Balika.J.Chelliah",1,1,0,0,1,0,1);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Balika.J.Chelliah",0,1,1,1,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Balika.J.Chelliah",1,1,0,1,1,0,1);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Balika.J.Chelliah",0,0,0,0,1,1,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Balika.J.Chelliah",0,0,1,1,0,0,0);
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Jaya Kumar",1,0,0,1,1,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Jaya Kumar",1,0,0,0,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Jaya Kumar",0,1,0,0,1,0,1);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Jaya Kumar",0,0,1,0,0,1,1);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Jaya Kumar",0,1,0,0,1,0,0);
+
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.R.J. Poovaraghan",0,0,1,0,1,0,1);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.R.J. Poovaraghan",0,0,0,1,0,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.R.J. Poovaraghan",1,1,1,0,1,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.R.J. Poovaraghan",1,0,0,0,1,0,1);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.R.J. Poovaraghan",0,1,0,0,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.M.S. Bennet Praba",0,0,0,0,1,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.M.S. Bennet Praba",1,1,0,0,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.M.S. Bennet Praba",0,1,1,1,0,1,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.M.S. Bennet Praba",0,0,1,0,1,0,1);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.M.S. Bennet Praba",0,0,0,0,1,0,1);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Pandiaraj",1,0,1,0,1,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Pandiaraj",0,0,0,0,1,0,1);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Pandiaraj",1,1,0,0,1,1,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Pandiaraj",1,0,0,0,0,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Pandiaraj",0,0,1,0,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.V. Praveena",0,0,0,0,0,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.V. Praveena",1,0,0,0,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.V. Praveena",0,0,0,1,1,0,1);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.V. Praveena",1,1,0,0,1,0,1);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.V. Praveena",1,0,1,1,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Arun Kumar",0,0,0,0,0,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Arun Kumar",0,0,1,0,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Arun Kumar",1,1,0,0,0,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Arun Kumar",1,1,0,1,1,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.S. Arun Kumar",1,1,0,0,0,1,1);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.M.S. Antony Vigil",1,0,0,0,1,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.M.S. Antony Vigil",1,1,0,0,1,0,1);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.M.S. Antony Vigil",0,1,0,0,1,1,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.M.S. Antony Vigil",0,0,0,1,0,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.M.S. Antony Vigil",0,1,0,1,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.T.H. Feiroz Khan",0,0,0,0,0,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.T.H. Feiroz Khan",0,0,1,1,0,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.T.H. Feiroz Khan",0,0,0,1,1,1,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.T.H. Feiroz Khan",1,0,1,0,1,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.T.H. Feiroz Khan",0,1,1,1,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. B. Dojohn Loyd",1,1,0,0,0,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. B. Dojohn Loyd",0,0,0,0,0,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. B. Dojohn Loyd",0,0,1,0,1,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. B. Dojohn Loyd",1,1,1,0,1,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. B. Dojohn Loyd",1,0,1,1,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. J. Ahalya Mary",0,0,1,1,1,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. J. Ahalya Mary",1,0,0,0,0,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. J. Ahalya Mary",0,0,1,1,1,1,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. J. Ahalya Mary",1,0,0,0,0,1,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. J. Ahalya Mary",0,0,0,0,0,1,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Mrudula Oruganti",0,0,1,0,0,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Mrudula Oruganti",0,0,0,1,1,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Mrudula Oruganti",1,1,0,1,1,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Mrudula Oruganti",0,0,0,1,1,1,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Mrudula Oruganti",0,1,0,0,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. S.P. Maniraj",1,1,0,0,0,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. S.P. Maniraj",0,1,0,1,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. S.P. Maniraj",1,0,0,0,0,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. S.P. Maniraj",1,1,0,0,1,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. S.P. Maniraj",0,0,1,1,0,1,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms. V. Sellam",1,1,0,0,0,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms. V. Sellam",0,0,0,1,1,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms. V. Sellam",0,0,0,1,1,0,1);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms. V. Sellam",0,0,0,0,1,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms. V. Sellam",1,0,1,1,0,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Sarooraj",1,1,1,0,1,0,1);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Sarooraj",0,0,0,1,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Sarooraj",0,0,0,1,0,1,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Sarooraj",0,0,0,0,1,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Sarooraj",0,0,1,1,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms. Caroline El Fiorenza",0,1,0,1,1,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms. Caroline El Fiorenza",1,1,0,1,0,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms. Caroline El Fiorenza",1,1,0,1,1,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms. Caroline El Fiorenza",0,0,0,0,1,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms. Caroline El Fiorenza",0,0,0,0,0,1,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. R. Angeline",0,0,1,0,1,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. R. Angeline",0,0,1,0,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. R. Angeline",1,0,0,0,1,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. R. Angeline",0,1,0,0,1,0,1);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. R. Angeline",0,0,1,1,0,1,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Narendran M",0,0,0,0,1,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Narendran M",0,1,0,0,0,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Narendran M",0,0,0,1,1,1,1);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Narendran M",0,0,0,0,0,1,1);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Narendran M",1,0,1,0,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Sabitha P",1,0,1,0,1,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Sabitha P",1,1,0,0,0,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Sabitha P",1,0,1,0,1,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Sabitha P",0,0,0,0,1,1,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Sabitha P",0,0,1,1,0,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Tadepalli  Sarada Kiranmayee",0,0,0,1,1,0,1);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Tadepalli  Sarada Kiranmayee",0,0,1,0,1,0,1);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Tadepalli  Sarada Kiranmayee",0,0,0,0,1,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Tadepalli  Sarada Kiranmayee",1,0,0,0,1,0,1);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs. Tadepalli  Sarada Kiranmayee",1,1,0,0,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.G. Kalpana",0,0,0,0,1,0,1);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.G. Kalpana",0,0,0,1,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.G. Kalpana",1,1,0,0,0,1,1);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.G. Kalpana",0,0,0,1,1,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.G. Kalpana",0,0,0,1,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Senthil M",0,1,0,0,1,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Senthil M",1,1,0,0,0,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Senthil M",1,0,1,1,0,0,1);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Senthil M",0,0,0,0,0,1,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Senthil M",0,0,1,0,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.D. Bhaskar",0,0,0,1,1,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.D. Bhaskar",0,0,0,0,1,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.D. Bhaskar",0,0,0,0,1,0,1);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.D. Bhaskar",0,0,1,1,1,1,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.D. Bhaskar",0,0,0,0,1,1,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.M. Prabu",0,1,1,0,1,0,1);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.M. Prabu",0,1,0,1,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.M. Prabu",1,0,0,0,1,1,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.M. Prabu",1,0,0,0,0,1,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.M. Prabu",0,0,0,0,0,1,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.A. Shiny",1,1,0,0,1,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.A. Shiny",1,1,0,1,0,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.A. Shiny",0,0,1,1,1,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.A. Shiny",0,0,1,0,0,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.A. Shiny",0,1,0,0,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.K. Suba",0,0,0,0,1,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.K. Suba",0,1,0,0,1,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.K. Suba",1,0,1,1,0,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.K. Suba",0,0,1,0,0,1,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.K. Suba",1,1,0,0,1,1,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.P. Adlene Ebenezer",0,0,0,0,0,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.P. Adlene Ebenezer",1,0,0,0,0,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.P. Adlene Ebenezer",0,1,0,1,1,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.P. Adlene Ebenezer",1,1,0,0,1,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.P. Adlene Ebenezer",1,0,1,1,1,0,1);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.A. Sharmila Agnal",0,0,0,1,0,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.A. Sharmila Agnal",1,0,1,1,1,0,1);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.A. Sharmila Agnal",1,1,0,0,0,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.A. Sharmila Agnal",0,0,0,1,1,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.A. Sharmila Agnal",0,0,1,0,1,0,1);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.S. Vishu Dharsini",0,1,0,0,1,0,1);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.S. Vishu Dharsini",0,0,1,0,1,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.S. Vishu Dharsini",1,0,0,0,1,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.S. Vishu Dharsini",1,0,0,0,0,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.S. Vishu Dharsini",0,0,1,1,1,0,1);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.V. Sathya",0,0,1,0,1,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.V. Sathya",1,1,1,0,1,0,1);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.V. Sathya",1,0,0,0,0,1,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.V. Sathya",0,0,0,0,1,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.V. Sathya",0,1,0,0,0,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S.R. Rajeswari",0,0,0,0,1,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S.R. Rajeswari",0,0,0,0,1,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S.R. Rajeswari",0,1,0,0,1,1,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S.R. Rajeswari",1,0,0,0,0,1,1);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S.R. Rajeswari",0,0,0,1,1,0,1);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S. Usha Krithika",0,0,1,1,1,0,1);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S. Usha Krithika",0,0,1,1,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S. Usha Krithika",0,0,0,0,1,0,1);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S. Usha Krithika",1,0,0,0,1,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S. Usha Krithika",0,0,0,0,1,1,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.E. Saraswathi",1,0,1,1,0,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.E. Saraswathi",0,0,0,0,0,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.E. Saraswathi",0,1,1,0,0,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.E. Saraswathi",0,0,1,0,1,1,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.E. Saraswathi",1,1,0,1,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.M. Saravanan",0,0,1,1,0,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.M. Saravanan",1,0,0,0,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.M. Saravanan",1,0,1,1,0,1,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.M. Saravanan",0,0,0,0,0,1,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.M. Saravanan",1,0,1,1,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.D. Ganesan",0,0,1,1,1,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.D. Ganesan",1,0,0,0,1,0,1);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.D. Ganesan",0,0,1,1,0,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.D. Ganesan",0,0,0,1,1,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.D. Ganesan",0,1,0,0,1,1,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.K. Sathish",1,1,0,1,0,0,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.K. Sathish",0,0,0,0,1,0,1);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.K. Sathish",0,0,1,0,0,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.K. Sathish",0,1,0,0,0,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr.K. Sathish",1,1,0,0,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Divagar Balasubramanian",0,1,0,1,1,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Divagar Balasubramanian",0,0,0,1,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Divagar Balasubramanian",1,0,0,0,1,1,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Divagar Balasubramanian",1,0,0,0,0,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mr. Divagar Balasubramanian",0,0,1,1,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S. Nandhini",1,0,0,0,1,0,1);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S. Nandhini",0,0,0,1,1,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S. Nandhini",0,0,1,1,0,1,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S. Nandhini",0,0,0,0,0,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.S. Nandhini",0,1,0,1,1,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.J. Shiva Nandhini",1,0,0,0,1,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.J. Shiva Nandhini",0,0,0,1,0,0,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.J. Shiva Nandhini",0,0,0,0,1,0,1);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.J. Shiva Nandhini",1,1,0,1,1,0,1);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.J. Shiva Nandhini",0,0,0,0,1,0,1);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.S. Kalaiarasi",0,1,0,0,1,0,1);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.S. Kalaiarasi",1,0,1,1,0,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.S. Kalaiarasi",0,0,0,0,1,1,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.S. Kalaiarasi",1,0,1,0,1,0,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.S. Kalaiarasi",0,0,1,0,0,1,1);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.M. Shanthalakshmi",1,0,1,0,0,1,0);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.M. Shanthalakshmi",0,0,0,0,0,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.M. Shanthalakshmi",0,1,0,0,1,0,1);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.M. Shanthalakshmi",0,0,0,1,1,0,1);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Mrs.M. Shanthalakshmi",1,0,1,1,0,0,0);
+
+
+
+INSERT INTO Monday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.P. Subashini",0,0,0,0,1,0,1);
+INSERT INTO Tuesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.P. Subashini",1,0,0,0,1,1,0);
+INSERT INTO Wednesday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.P. Subashini",0,0,1,0,1,0,0);
+INSERT INTO Thursday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.P. Subashini",0,0,0,1,0,1,0);
+INSERT INTO Friday (Name,p1,p2,p3,p4,p5,p6,p7) VALUES ("Ms.P. Subashini",1,0,1,1,1,0,0);
+
+comman="SELECT Name FROM "+x+" where p"+y+"="+"1;";
+
+
