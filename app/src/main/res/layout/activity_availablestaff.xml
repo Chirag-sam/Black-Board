@@ -23,7 +23,7 @@
         android:layout_below="@+id/hourtext"
         android:layout_centerHorizontal="true"
         android:theme="@style/button"
-         />
+        android:filterTouchesWhenObscured="true"/>
 
 <TextView
     android:layout_width="wrap_content"

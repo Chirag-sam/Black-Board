@@ -16,12 +16,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".stafftimetable" />
-        <activity android:name=".displaytable" />
+        <activity android:name=".displaytable"
+                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
         <activity android:name=".availablestaff" />
         <activity android:name=".displaystaff" />
         <activity android:name=".findclass" />
         <activity android:name=".classtimetable" />
-        <activity android:name=".displayclasstable"></activity>
+        <activity android:name=".displayclasstable"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        />
     </application>
 
 </manifest>

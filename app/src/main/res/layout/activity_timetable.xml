@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+
+>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_timetable"
@@ -28,8 +37,8 @@
         android:id="@+id/butt1"
         android:theme="@style/button"
         android:layout_below="@+id/uname"
-android:layout_centerHorizontal="true"         />
+        android:layout_centerHorizontal="true" android:filterTouchesWhenObscured="true"/>
 
 
 </RelativeLayout>
-
+</ScrollView>

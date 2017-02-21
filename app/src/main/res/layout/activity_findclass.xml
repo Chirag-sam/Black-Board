@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="@android:color/background_light">
+    >
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/activity_main"
@@ -14,7 +14,7 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
         tools:context="com.example.chirag.srm.MainActivity"
-        android:background="@android:color/background_light">
+        >
         <AutoCompleteTextView
             android:layout_width="200dp"
             android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
             android:layout_marginTop="40dp"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
-            android:theme="@style/button"/>
+            android:theme="@style/button" android:filterTouchesWhenObscured="true"/>
 
 
 
