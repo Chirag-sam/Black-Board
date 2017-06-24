@@ -8,23 +8,26 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"/>
+
+        <activity android:name=".stafftimetable" />
+        <activity
+            android:name=".displaytable"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".availablestaff" />
+        <activity android:name=".displaystaff" />
+        <activity android:name=".findclass" />
+        <activity android:name=".classtimetable" />
+        <activity
+            android:name=".displayclasstable"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".FirstActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".stafftimetable" />
-        <activity android:name=".displaytable"
-                  android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
-        <activity android:name=".availablestaff" />
-        <activity android:name=".displaystaff" />
-        <activity android:name=".findclass" />
-        <activity android:name=".classtimetable" />
-        <activity android:name=".displayclasstable"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-        />
     </application>
 
 </manifest>
