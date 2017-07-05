@@ -12,35 +12,7 @@
     tools:context="com.example.lenovo.bb.HodActivity">
 
 
-    <Button
-        android:text="Available staff"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button"
-        android:theme="@style/button"
 
-        android:id="@+id/button2" />
-
-    <Button
-        android:text="class location"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button2"
-
-        android:theme="@style/button"
-
-        android:id="@+id/button3"
-        />
-
-    <Button
-        android:text="class time table"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/button4"
-        android:layout_below="@+id/imageView2"
-        android:theme="@style/button"
-        android:layout_centerHorizontal="true"
-         />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -51,15 +23,25 @@
         android:scaleType="fitXY"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-         />
+        />
 
     <Button
-        android:text="Staff time table and responsibilities"
+        android:text="Head of departments"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
+        android:id="@+id/hod"
         android:theme="@style/button"
-        android:layout_below="@+id/button4"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:text="Staff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/staff"
+        android:theme="@style/button"
+        android:layout_below="@+id/hod"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 </RelativeLayout>
+

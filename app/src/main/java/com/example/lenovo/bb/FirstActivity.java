@@ -2,7 +2,6 @@ package com.example.lenovo.bb;
 
 import android.content.Intent;
 import android.support.design.widget.Snackbar;
-import android.support.design.widget.TextInputEditText;
 import android.support.design.widget.TextInputLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -91,9 +90,19 @@ public class FirstActivity extends AppCompatActivity {
                 }
                 else
                 {
-                    Intent myIntent = new Intent(FirstActivity.this, MainActivity.class);
-                    startActivity(myIntent);
-                    finish();
+                    if (x)
+                    {
+                        Intent myIntent = new Intent(FirstActivity.this, DeanActivity.class);
+                        startActivity(myIntent);
+                        finish();
+                    }
+                    if(y)
+                    {
+                        Intent myIntent = new Intent(FirstActivity.this, HodActivity.class);
+                        startActivity(myIntent);
+                        finish();
+                    }
+
                 }
             }
         });

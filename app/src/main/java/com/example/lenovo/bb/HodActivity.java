@@ -7,11 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
-import com.vstechlab.easyfonts.EasyFonts;
-
-public class MainActivity extends AppCompatActivity {
+public class HodActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, stafftimetable.class);
+                Intent i = new Intent(HodActivity.this, stafftimetable.class);
                 startActivity(i);
             }
         });
@@ -34,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, availablestaff.class);
+                Intent i = new Intent(HodActivity.this, availablestaff.class);
                 startActivity(i);
             }
         });
@@ -42,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, findclass.class);
+                Intent i = new Intent(HodActivity.this, findclass.class);
                 startActivity(i);
             }
         });
@@ -50,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, classtimetable.class);
+                Intent i = new Intent(HodActivity.this, classtimetable.class);
                 startActivity(i);
             }
         });
@@ -58,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        final AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this, R.style.pop);
+        final AlertDialog.Builder builder = new AlertDialog.Builder(HodActivity.this, R.style.pop);
         builder.setMessage("Are You Sure you want to exit?");
         builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
