@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.lenovo.bb">
-
+    <uses-permission android:name="android.permission.CALL_PHONE" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -29,7 +29,7 @@
         </activity>
         <activity android:name=".DeanActivity" />
         <activity android:name=".StaffWithPhoneNumber" />
-        <activity android:name=".DeanWithPhoneNumber"></activity>
+        <activity android:name=".HodWithPhoneNumber"></activity>
     </application>
 
 </manifest>

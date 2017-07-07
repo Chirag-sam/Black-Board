@@ -23,7 +23,8 @@ public class DeanActivity extends AppCompatActivity {
         hod.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent myIntent = new Intent(DeanActivity.this, HodWithPhoneNumber.class);
+                startActivity(myIntent);
             }
         });
         staff.setOnClickListener(new View.OnClickListener() {
