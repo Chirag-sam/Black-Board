@@ -2,6 +2,7 @@ package com.example.lenovo.bb;
 
 
 import android.Manifest;
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -12,6 +13,14 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
+
+import com.karumi.dexter.Dexter;
+import com.karumi.dexter.PermissionToken;
+import com.karumi.dexter.listener.PermissionDeniedResponse;
+import com.karumi.dexter.listener.PermissionGrantedResponse;
+import com.karumi.dexter.listener.PermissionRequest;
+import com.karumi.dexter.listener.single.PermissionListener;
 
 import java.util.Collections;
 import java.util.List;
@@ -23,12 +32,12 @@ import java.util.List;
 public class PhoneAdapter extends RecyclerView.Adapter<PhoneHolder> {
 
     List<Data> list = Collections.emptyList();
-    Context context;
+    Context mcontext;
 
     public PhoneAdapter(List<Data> list,Context context)
     {
         this.list = list;
-        this.context = context;
+        mcontext = context;
     }
 
     @Override
@@ -39,16 +48,36 @@ public class PhoneAdapter extends RecyclerView.Adapter<PhoneHolder> {
     }
 
     @Override
-    public void onBindViewHolder(PhoneHolder holder, int position) {
+    public void onBindViewHolder(final PhoneHolder holder, final int position) {
         holder.name.setText(list.get(position).name);
         holder.call.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent callIntent = new Intent(Intent.ACTION_CALL);
-//                callIntent.setData(Uri.parse("tel:123456789"));
-//
-//
-//                context.startActivity(callIntent);
+                Activity act = (Activity)(holder.call.getContext());
+                final Intent callIntent = new Intent(Intent.ACTION_CALL);
+                String s = list.get(position).phone;
+                callIntent.setData(Uri.parse("tel:"+s));
+
+                Dexter.withActivity(act)
+                        .withPermission(Manifest.permission.CALL_PHONE)
+                        .withListener(new PermissionListener() {
+                            @Override public void onPermissionGranted(PermissionGrantedResponse response) {
+
+                                mcontext.startActivity(callIntent);
+                            }
+                            @Override public void onPermissionDenied(PermissionDeniedResponse response) {
+                                Toast.makeText(mcontext, "Accept call permissions first!",
+                                    Toast.LENGTH_LONG).show();}
+                            @Override public void onPermissionRationaleShouldBeShown(PermissionRequest permission, PermissionToken token) {/* ... */}
+                        }).check();
+
+
+
+//                if (ActivityCompat.checkSelfPermission(mcontext,
+//                        Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+//                    return;
+//                }
+
             }
         });
 

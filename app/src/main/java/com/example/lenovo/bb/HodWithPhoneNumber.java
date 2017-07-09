@@ -1,5 +1,6 @@
 package com.example.lenovo.bb;
 
+import android.app.Activity;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -8,7 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
 
-public class HodWithPhoneNumber extends AppCompatActivity {
+public class HodWithPhoneNumber extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,12 +27,12 @@ public class HodWithPhoneNumber extends AppCompatActivity {
 
         List<Data> data = new ArrayList<>();
 
-        data.add(new Data("Mr.R. Augustian Isaac<", "Following the destruction of Metropolis, Batman embarks on a personal vendetta against Superman "));
-        data.add(new Data("Mr. Balika.J.Chelliah", "X-Men: Apocalypse is an upcoming American superhero film based on the X-Men characters that appear in Marvel Comics "));
-        data.add(new Data("Mr.S. Jaya Kumar", "A feud between Captain America and Iron Man leaves the Avengers in turmoil.  "));
-        data.add(new Data("Mr.R.J. Poovaraghan", "After reuniting with his long-lost father, Po  must train a village of pandas"));
-        data.add(new Data("Ms.M.S. Bennet Praba", "Fleeing their dying home to colonize another, fearsome orc warriors invade the peaceful realm of Azeroth. "));
-        data.add(new Data("Mr.S. Pandiaraj", "Alice in Wonderland: Through the Looking Glass "));
+        data.add(new Data("Mr.R. Augustian Isaac<", "9654647447"));
+        data.add(new Data("Mr. Balika.J.Chelliah", "9654647447"));
+        data.add(new Data("Mr.S. Jaya Kumar", "9654647447"));
+        data.add(new Data("Mr.R.J. Poovaraghan", "9654647447"));
+        data.add(new Data("Ms.M.S. Bennet Praba", "9654647447"));
+        data.add(new Data("Mr.S. Pandiaraj", "9654647447"));
 
         return data;
     }
