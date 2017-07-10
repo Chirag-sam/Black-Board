@@ -9,11 +9,13 @@ package com.example.lenovo.bb;
     public class Data {
         public String name;
         public String phone;
+        public int timetable;
 
 
-        Data(String name, String phone) {
+        Data(String name, String phone, int timetable) {
             this.name = name;
             this.phone = phone;
+            this.timetable = timetable;
         }
 
     }

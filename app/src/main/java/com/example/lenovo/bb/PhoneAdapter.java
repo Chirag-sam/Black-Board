@@ -71,13 +71,14 @@ public class PhoneAdapter extends RecyclerView.Adapter<PhoneHolder> {
                             @Override public void onPermissionRationaleShouldBeShown(PermissionRequest permission, PermissionToken token) {/* ... */}
                         }).check();
 
-
-
-//                if (ActivityCompat.checkSelfPermission(mcontext,
-//                        Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-//                    return;
-//                }
-
+            }
+        });
+        holder.cv1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(mcontext, displayclasstable.class);
+                intent.putExtra("drawable", list.get(position).timetable);
+                mcontext.startActivity(intent);
             }
         });
 

@@ -30,7 +30,7 @@ public class DeanActivity extends AppCompatActivity {
         staff.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myIntent = new Intent(DeanActivity.this, StaffWithPhoneNumber.class);
+                Intent myIntent = new Intent(DeanActivity.this, Department.class);
                 startActivity(myIntent);
             }
         });

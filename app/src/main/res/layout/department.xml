@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.bb.Department">
+
+    <Button
+        android:text="CSE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cse"
+        android:layout_marginTop="20dp"
+        android:theme="@style/button"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:text="mech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mech"
+        android:layout_below="@+id/cse"
+        android:theme="@style/button"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:text="ece"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ece"
+        android:theme="@style/button"
+        android:layout_below="@+id/mech"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:text="eee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/eee"
+        android:theme="@style/button"
+        android:layout_below="@+id/ece"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:text="it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/it"
+        android:layout_below="@+id/eee"
+        android:theme="@style/button"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>

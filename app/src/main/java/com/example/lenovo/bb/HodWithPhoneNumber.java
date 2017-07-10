@@ -27,12 +27,12 @@ public class HodWithPhoneNumber extends Activity {
 
         List<Data> data = new ArrayList<>();
 
-        data.add(new Data("Mr.R. Augustian Isaac<", "9654647447"));
-        data.add(new Data("Mr. Balika.J.Chelliah", "9654647447"));
-        data.add(new Data("Mr.S. Jaya Kumar", "9654647447"));
-        data.add(new Data("Mr.R.J. Poovaraghan", "9654647447"));
-        data.add(new Data("Ms.M.S. Bennet Praba", "9654647447"));
-        data.add(new Data("Mr.S. Pandiaraj", "9654647447"));
+        data.add(new Data("Mr.R. Augustian Isaac<", "9654647447",R.drawable.a1));
+        data.add(new Data("Mr. Balika.J.Chelliah", "9654647447",R.drawable.a1));
+        data.add(new Data("Mr.S. Jaya Kumar", "9654647447",R.drawable.a1));
+        data.add(new Data("Mr.R.J. Poovaraghan", "9654647447",R.drawable.a1));
+        data.add(new Data("Ms.M.S. Bennet Praba", "9654647447",R.drawable.a1));
+        data.add(new Data("Mr.S. Pandiaraj", "9654647447",R.drawable.a1));
 
         return data;
     }
