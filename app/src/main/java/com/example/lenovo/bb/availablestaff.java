@@ -17,6 +17,7 @@ import java.util.List;
 
 public class availablestaff extends AppCompatActivity implements View.OnClickListener, AdapterView.OnItemSelectedListener {
     String d="";
+    
     String h="";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
